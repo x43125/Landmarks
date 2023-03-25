@@ -130,6 +130,7 @@
 		2E52395E29CDE69E00A1902A /* Badge */ = {
 			isa = PBXGroup;
 			children = (
+				2E52397C29CDFE7600A1902A /* HikeBadge.swift */,
 				2E52395C29CDE52000A1902A /* Badge.swift */,
 				2E52396129CDE91A00A1902A /* Hike.swift */,
 				2E52395629CDDC4F00A1902A /* BadgeBackground.swift */,
@@ -156,11 +157,6 @@
 			children = (
 				2E52397029CDF25200A1902A /* CategoryHome.swift */,
 				2E52397229CDF44A00A1902A /* CategoryRow.swift */,
-				2E52397629CDFAFE00A1902A /* Profile.swift */,
-				2E52397829CDFBC900A1902A /* ProfileHost.swift */,
-				2E3BDF9B29CE200600F4EA92 /* ProfileEditor.swift */,
-				2E52397C29CDFE7600A1902A /* HikeBadge.swift */,
-				2E52397A29CDFC3100A1902A /* ProfileSummary.swift */,
 				2E52397429CDF5CC00A1902A /* CategoryItem.swift */,
 			);
 			path = Categories;
@@ -169,10 +165,11 @@
 		2E54CDB529C8B78C00E57DA1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2E7A899B29C22012004EDDA2 /* ContentView.swift */,
+				2EE3FF9629CF6322008FEE53 /* Profile */,
 				2E52396F29CDF22B00A1902A /* Categories */,
 				2E52396329CDE9F400A1902A /* Hikes */,
 				2E52395E29CDE69E00A1902A /* Badge */,
-				2E7A899B29C22012004EDDA2 /* ContentView.swift */,
 				2E86AC5129CBE1E50035A95F /* Helpers */,
 				2E86AC5229CBE21D0035A95F /* Landmarks */,
 			);
@@ -273,6 +270,17 @@
 				2EA85F7D29C93E1E00C47477 /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		2EE3FF9629CF6322008FEE53 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2E52397629CDFAFE00A1902A /* Profile.swift */,
+				2E52397829CDFBC900A1902A /* ProfileHost.swift */,
+				2E3BDF9B29CE200600F4EA92 /* ProfileEditor.swift */,
+				2E52397A29CDFC3100A1902A /* ProfileSummary.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
